@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF33AA8926645096008370BF /* MesmerizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33AA8826645096008370BF /* MesmerizeApp.swift */; };
+		FF33AA8B26645096008370BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33AA8A26645096008370BF /* ContentView.swift */; };
+		FF33AA8D26645099008370BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF33AA8C26645099008370BF /* Assets.xcassets */; };
+		FF33AA9026645099008370BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF33AA8F26645099008370BF /* Preview Assets.xcassets */; };
+		FF6FACC02668C8C100DFD87E /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6FACBF2668C8C100DFD87E /* MemoryGame.swift */; };
+		FF6FACC22668CB2300DFD87E /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6FACC12668CB2300DFD87E /* EmojiMemoryGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF08EA042666ED8900BE1019 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF08E9F62666ED8800BE1019 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
+		FF08E9F82666ED8800BE1019 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF08E9FA2666ED8800BE1019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF08E9FD2666ED8900BE1019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF08E9FF2666ED8900BE1019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08EA002666ED8900BE1019 /* Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Test.entitlements; sourceTree = "<group>"; };
+		FF33AA8526645096008370BF /* Mesmerize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mesmerize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF33AA8826645096008370BF /* MesmerizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesmerizeApp.swift; sourceTree = "<group>"; };
+		FF33AA8A26645096008370BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF33AA8C26645099008370BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF33AA8F26645099008370BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF33AA9126645099008370BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5B31C026677434002BCCE1 /* ResumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeApp.swift; sourceTree = "<group>"; };
+		FF5B31C226677434002BCCE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF5B31C426677435002BCCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5B31C726677435002BCCE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF5B31C926677435002BCCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5B31CA26677435002BCCE1 /* Resume.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Resume.entitlements; sourceTree = "<group>"; };
+		FF6FACBF2668C8C100DFD87E /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		FF6FACC12668CB2300DFD87E /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF33AA8226645096008370BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF08E9F52666ED8800BE1019 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				FF08E9F62666ED8800BE1019 /* TestApp.swift */,
+				FF08E9F82666ED8800BE1019 /* ContentView.swift */,
+				FF08E9FA2666ED8800BE1019 /* Assets.xcassets */,
+				FF08E9FF2666ED8900BE1019 /* Info.plist */,
+				FF08EA002666ED8900BE1019 /* Test.entitlements */,
+				FF08E9FC2666ED8900BE1019 /* Preview Content */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		FF08E9FC2666ED8900BE1019 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF08E9FD2666ED8900BE1019 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF33AA7C26645096008370BF = {
+			isa = PBXGroup;
+			children = (
+				FF33AA8726645096008370BF /* Mesmerize */,
+				FF08E9F52666ED8800BE1019 /* Test */,
+				FF5B31BF26677434002BCCE1 /* Resume */,
+				FF33AA8626645096008370BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF33AA8626645096008370BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF33AA8526645096008370BF /* Mesmerize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF33AA8726645096008370BF /* Mesmerize */ = {
+			isa = PBXGroup;
+			children = (
+				FF6FACBF2668C8C100DFD87E /* MemoryGame.swift */,
+				FF6FACC12668CB2300DFD87E /* EmojiMemoryGame.swift */,
+				FF33AA8A26645096008370BF /* ContentView.swift */,
+				FF33AA8826645096008370BF /* MesmerizeApp.swift */,
+				FF33AA8C26645099008370BF /* Assets.xcassets */,
+				FF33AA9126645099008370BF /* Info.plist */,
+				FF33AA8E26645099008370BF /* Preview Content */,
+			);
+			path = Mesmerize;
+			sourceTree = "<group>";
+		};
+		FF33AA8E26645099008370BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF33AA8F26645099008370BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF5B31BF26677434002BCCE1 /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B31C026677434002BCCE1 /* ResumeApp.swift */,
+				FF5B31C226677434002BCCE1 /* ContentView.swift */,
+				FF5B31C426677435002BCCE1 /* Assets.xcassets */,
+				FF5B31C926677435002BCCE1 /* Info.plist */,
+				FF5B31CA26677435002BCCE1 /* Resume.entitlements */,
+				FF5B31C626677435002BCCE1 /* Preview Content */,
+			);
+			path = Resume;
+			sourceTree = "<group>";
+		};
+		FF5B31C626677435002BCCE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B31C726677435002BCCE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF33AA8426645096008370BF /* Mesmerize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF33AA9426645099008370BF /* Build configuration list for PBXNativeTarget "Mesmerize" */;
+			buildPhases = (
+				FF33AA8126645096008370BF /* Sources */,
+				FF33AA8226645096008370BF /* Frameworks */,
+				FF33AA8326645096008370BF /* Resources */,
+				FF08EA042666ED8900BE1019 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mesmerize;
+			productName = Mesmerize;
+			productReference = FF33AA8526645096008370BF /* Mesmerize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF33AA7D26645096008370BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FF33AA8426645096008370BF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FF33AA8026645096008370BF /* Build configuration list for PBXProject "Mesmerize" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF33AA7C26645096008370BF;
+			productRefGroup = FF33AA8626645096008370BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF33AA8426645096008370BF /* Mesmerize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF33AA8326645096008370BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33AA9026645099008370BF /* Preview Assets.xcassets in Resources */,
+				FF33AA8D26645099008370BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF33AA8126645096008370BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6FACC02668C8C100DFD87E /* MemoryGame.swift in Sources */,
+				FF33AA8B26645096008370BF /* ContentView.swift in Sources */,
+				FF33AA8926645096008370BF /* MesmerizeApp.swift in Sources */,
+				FF6FACC22668CB2300DFD87E /* EmojiMemoryGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF33AA9226645099008370BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF33AA9326645099008370BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF33AA9526645099008370BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mesmerize/Preview Content\"";
+				DEVELOPMENT_TEAM = 8839J55A6U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mesmerize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF33AA9626645099008370BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mesmerize/Preview Content\"";
+				DEVELOPMENT_TEAM = 8839J55A6U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mesmerize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF33AA8026645096008370BF /* Build configuration list for PBXProject "Mesmerize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF33AA9226645099008370BF /* Debug */,
+				FF33AA9326645099008370BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF33AA9426645099008370BF /* Build configuration list for PBXNativeTarget "Mesmerize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF33AA9526645099008370BF /* Debug */,
+				FF33AA9626645099008370BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF33AA7D26645096008370BF /* Project object */;
+}
